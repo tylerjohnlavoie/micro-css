@@ -1,0 +1,36 @@
+:root {
+    --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+    --space-2xs: clamp(0.5625rem, 0.5408rem + 0.1087vw, 0.625rem);
+    --space-xs: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem);
+    --space-s: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+    --space-m: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
+    --space-l: clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem);
+    --space-xl: clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem);
+    --space-2xl: clamp(4.5rem, 4.3261rem + 0.8696vw, 5rem);
+    --space-3xl: clamp(6.75rem, 6.4891rem + 1.3043vw, 7.5rem);
+    --space-4xl: clamp(9rem, 8.6522rem + 1.7391vw, 10rem);
+    --space-5xl: clamp(11.25rem, 10.8152rem + 2.1739vw, 12.5rem);
+    --space-6xl: clamp(13.5rem, 12.9783rem + 2.6087vw, 15rem);
+    --space-7xl: clamp(20.25rem, 19.4674rem + 3.913vw, 22.5rem);
+    --space-8xl: clamp(27rem, 25.9565rem + 5.2174vw, 30rem);
+    --space-9xl: clamp(40.5rem, 38.9348rem + 7.8261vw, 45rem);
+  
+    /* One-up pairs */
+    --space-3xs-2xs: clamp(0.3125rem, 0.2038rem + 0.5435vw, 0.625rem);
+    --space-2xs-xs: clamp(0.5625rem, 0.4321rem + 0.6522vw, 0.9375rem);
+    --space-xs-s: clamp(0.875rem, 0.7446rem + 0.6522vw, 1.25rem);
+    --space-s-m: clamp(1.125rem, 0.8641rem + 1.3043vw, 1.875rem);
+    --space-m-l: clamp(1.6875rem, 1.4049rem + 1.413vw, 2.5rem);
+    --space-l-xl: clamp(2.25rem, 1.7283rem + 2.6087vw, 3.75rem);
+    --space-xl-2xl: clamp(3.375rem, 2.8098rem + 2.8261vw, 5rem);
+    --space-2xl-3xl: clamp(4.5rem, 3.4565rem + 5.2174vw, 7.5rem);
+    --space-3xl-4xl: clamp(6.75rem, 5.6196rem + 5.6522vw, 10rem);
+    --space-4xl-5xl: clamp(9rem, 7.7826rem + 6.087vw, 12.5rem);
+    --space-5xl-6xl: clamp(11.25rem, 9.9457rem + 6.5217vw, 15rem);
+    --space-6xl-7xl: clamp(13.5rem, 10.3696rem + 15.6522vw, 22.5rem);
+    --space-7xl-8xl: clamp(20.25rem, 16.8587rem + 16.9565vw, 30rem);
+    --space-8xl-9xl: clamp(27rem, 20.7391rem + 31.3043vw, 45rem);
+  
+    /* Custom pairs */
+    --space-s-l: clamp(1.125rem, 0.6467rem + 2.3913vw, 2.5rem);
+  }
