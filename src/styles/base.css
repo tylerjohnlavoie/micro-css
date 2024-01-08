@@ -1,4 +1,10 @@
 :root {
+  /* Breakpoints */
+  --screen-s: 640px;
+  --screen-m: 768px;
+  --screen-l: 1024px;
+  --screen-xl: 1280px;
+  --screen-2xl: 1536px;
 
   /* Spacing basic */
     --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
@@ -32,39 +38,4 @@
     --space-6xl-7xl: clamp(13.5rem, 10.3696rem + 15.6522vw, 22.5rem);
     --space-7xl-8xl: clamp(20.25rem, 16.8587rem + 16.9565vw, 30rem);
     --space-8xl-9xl: clamp(27rem, 20.7391rem + 31.3043vw, 45rem);
-
-
-    /* Colors - Base */
-    --black: #000000;
-    --white: #FFFFFF;
-
-
-    /* Colors - Grays */
-    --cool-gray-50: #EBECED;
-    --cool-gray-100: #D6D8DB;
-    --cool-gray-200: #C0C4C8;
-    --cool-gray-300: #ABB0B6;
-    --cool-gray-400: #969BA4;
-    --cool-gray-500: #818792;
-    --cool-gray-600: #6b7280;
-    --cool-gray-700: #5F6472;
-    --cool-gray-800: #525664;
-    --cool-gray-900: #464955;
-    --cool-gray-1000: #3A3C47;
-    --cool-gray-1100: #2E2F38;
-    --cool-gray-1200: #22222A;
-
-    --warm-gray-50: #ECEBEB;
-    --warm-gray-100: #D9D7D6;
-    --warm-gray-200: #C5C3C1;
-    --warm-gray-300: #B2AFAB;
-    --warm-gray-400: #9F9A96;
-    --warm-gray-500: #8B8681;
-    --warm-gray-600: #78716c;
-    --warm-gray-700: #6A635F;
-    --warm-gray-800: #5C5653;
-    --warm-gray-900: #4E4846;
-    --warm-gray-1000: #403B39;
-    --warm-gray-1100: #322E2D;
-    --warm-gray-1200: #242120;
-  }
+}

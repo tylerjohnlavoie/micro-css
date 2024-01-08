@@ -1,0 +1,39 @@
+:root {
+    --screen-s: 640px;
+    --screen-m: 768px;
+    --screen-l: 1024px;
+    --screen-xl: 1280px;
+    --screen-2xl: 1536px;
+}
+
+.container {
+    width: 100%;
+    background-color: orange;
+    margin: 0 auto;
+    padding: 0 var(--space-l-xl);
+  
+    @media (min-width: var(--screen-s)) {
+      max-width: var(--screen-s);
+      padding: 0 var(--space-l-xl);
+    }
+  
+    @media (min-width: var(--screen-m)) {
+      max-width: var(--screen-m);
+      padding: 0 var(--space-xl-2xl);
+    }
+  
+    @media (min-width: var(--screen-l)) {
+      max-width: var(--screen-l);
+      padding: 0 var(--space-2xl-3xl);
+    }
+  
+    @media (min-width: var(--screen-xl)) {
+      max-width: var(--screen-xl);
+      padding: 0 var(--space-3xl-4xl);
+    }
+  
+    @media (min-width: var(--screen-2xl)) {
+      max-width: var(--screen-2xl);
+      padding: 0 var(--space-4xl-5xl);
+    }
+  }
